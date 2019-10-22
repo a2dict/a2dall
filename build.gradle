@@ -53,6 +53,6 @@ sourceSets.main.java.srcDirs 'src/main/clojure'
 
 task copyClojureSources(type: Copy) {
     from "${projectDir}/src/main/clojure"
-    into "${buildDir}/classes/java/main"
+    into "${buildDir}/resources/main"
 }
 processResources.dependsOn copyClojureSources
