@@ -1,4 +1,0 @@
-entity-packages: com.a2dict.a2dall.domain
-querybean-packages: com.a2dict.a2dall
-transactional-packages: com.a2dict.a2dall
-profile-location: true
