@@ -4,9 +4,9 @@
 (defn hello ^String []
   "hello world")
 
-(defn new-people ^People
-  ([] (new-people "idx" "foo"))
-  ([id name]
+(defn new-people
+  (^People [] (new-people "idx" "foo"))
+  (^People [id name]
    (doto (People.)
      (.setId id)
      (.setName name))))
